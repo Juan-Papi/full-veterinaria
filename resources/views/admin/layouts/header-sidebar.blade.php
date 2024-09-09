@@ -380,7 +380,7 @@
                         <span
                             class="block text-sm font-semibold text-gray-900 dark:text-white">{{ auth()->user()->name }}</span>
                         <span
-                            class="block text-sm text-gray-900 truncate dark:text-white">{{ auth()->user()->name }}</span>
+                            class="block text-sm text-gray-900 truncate dark:text-white">{{ auth()->user()->email }}</span>
                     </div>
                     <ul class="py-1 text-gray-700 dark:text-gray-300" aria-labelledby="dropdown">
                         <li>
