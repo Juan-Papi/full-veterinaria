@@ -1,41 +1,18 @@
 @extends('admin.layouts.main')
 
 @push('styles')
-    {{-- for add new styles for our pages (pushear al stack!) --}}
 @endpush
 
-@section('admin-content-toolbar')
-    {{-- <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
-        <div class="border-2 border-dashed border-gray-300 rounded-lg dark:border-gray-600 h-32 md:h-64"></div>
-        <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-32 md:h-64"></div>
-        <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-32 md:h-64"></div>
-        <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-32 md:h-64"></div>
-    </div> --}}
-
-
-    {{-- <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-28 mb-4"></div> --}}
-
-
-
-    {{-- <div class="grid grid-cols-2 gap-4 mb-4">
-        <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-48 md:h-72"></div>
-        <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-48 md:h-72"></div>
-        <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-48 md:h-72"></div>
-        <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-48 md:h-72"></div>
-    </div> --}}
-    {{-- <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-96 mb-4"></div> --}}
-    {{-- <div class="grid grid-cols-2 gap-4">
-        <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-48 md:h-72"></div>
-        <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-48 md:h-72"></div>
-        <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-48 md:h-72"></div>
-        <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-48 md:h-72"></div>
-    </div> --}}
-@endsection
-
 @section('admin-content')
-    {{-- <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-screen mb-4"></div> --}}
+    <div
+        class="flex flex-col p-6 bg-white rounded-lg dark:bg-gray-800 transition duration-300 ease-in-out lg:h-screen md:h-screen sm:h-auto">
+        <div class="text-center mb-6">
+            <h3 class="text-xl font-medium dark:text-white">Dashboard</h3>
+            <p class="text-sm text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam, dicta!.</p>
+        </div>
+    </div>
 @endsection
 
 @push('scripts')
-    <script></script>
 @endpush
