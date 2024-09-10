@@ -19,5 +19,29 @@
         console.log("Ocultando spinner...");
         $('#loading').hide();
     };
+
+    const successfulAlert = (title, message) => {
+        Toast.fire({
+            icon: 'success',
+            title: title,
+            text: message,
+        });
+    };
+
+    const errorAlert = (title, message) => {
+        Toast.fire({
+            icon: 'error',
+            title: title,
+            text: message,
+        });
+    };
+
+    const warningAlert = (title, message) => {
+        Toast.fire({
+            icon: 'warning',
+            title: title,
+            text: message,
+        });
+    };
 </script>
 @stack('scripts')
