@@ -10,7 +10,6 @@
 </head>
 
 <body class="flex flex-col min-h-screen bg-gray-50 dark:bg-gray-900 antialiased">
-
     {{-- Spinner --}}
     <div id="loading" class="fixed inset-0 bg-black flex justify-center items-center">
         <div class="spinner">
@@ -26,7 +25,6 @@
             <span class="sr-only">Loading...</span>
         </div>
     </div>
-
     {{-- <div class="antialiased bg-gray-50 dark:bg-gray-900"> --}}
     @include('admin.layouts.header')
     @include('admin.layouts.sidebar')
